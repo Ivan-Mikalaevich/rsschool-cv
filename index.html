@@ -4,15 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Ivan Mensens </h1>
-<p> +375295256901 </p> 
-<p>Obtaining the desired position of an IT specialist. Priorities: a decent salary, a friendly team, the opportunity for career growth, a social package. I don't have any experience in the IT field yet, but I have a great desire to get it. I am hardworking, disciplined, with a developed creative mindset Basic knowledge of html, css, javascript, photoshop</p>
-<p>Примеры кода</p>
-<p>I have no experience in the IT field</p>
-<p>Higher education, I have a research diploma</p>
-<p>English Level A2</p>
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-items"><a href="#personal-information"><button>Personal information</button> </a> </li>
+                <li class="nav-items"><a href="#contacts"><button>Contacts</button></a> </li>
+                <li class="nav-items"><a href="#education"><button>Education</button></a> </li>
+                <li class="nav-items"><a href="#courses"><button>Courses</button></a> </li>
+                <li class="nav-items"><a href="#skills"><button>Skills</button></a> </li>
+                <li class="nav-items"><a href="#strenghts"><button>Strenghts</button></a> </li>
+                <li class="nav-items"><a href="#projects"><button>Projects</button> </a> </li>
+                <li class="nav-items"><a href="#code"><button>Code</button></a> </li>
+                <li class="nav-items"><a href="#english-level"><button>English level</button></a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="left-side">
+                <section class="i-am">
+                    <img class="left-avatar" src="../rsschool-cv/assets/img/avatar.png" alt="Avatar">
+                    <h1 class="surname">Ivan Mensens</h1>
+                </section>
+                <section class="contacts" id="contacts">
+                    <ul><h2>Contacts:</h2>
+                        <li>Phone:+375295256901</li>
+                        <li>Email: mensens@mail.ru</li>
+                        <li>Discord: MENSENS#7489</li>
+                        <li>GitHub: Ivan-Mikalaevich</li>
+                    </ul>
+                </section>
+                <section class="education" id="education">
+                    <ul><h2>Education:</h2>
+                        <li>2015-2018 postgraduate degree in the specialty "Foundry production" of the Gomel State Technical University named after P. O. Sukhoi</li>
+                        <li>2012-2013 master's degree of the named university of the Gomel State Technical University named after P. O. Sukhoi</li>
+                        <li>2008 - 2012, Faculty of Mechanics and Technology of the Gomel State Technical University named after P. O. Sukhoi, specialty "Machines and technology of foundry production" specializations "Organization and management of foundry production".</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-side">
+                <section class="personal-information" id="personal-information">
+                    <h2>Personal information</h2>
+                    I don't have any experience in the IT field yet, but I have a great desire to get it.
+                </section>
+                <section class="courses" id="courses">
+                    <ul> <h2>Courses:</h2>
+                        <li><a href="https://code-basics.com/ru/languages/html" target="_blank">HTML</a> </li>
+                        <li><a href="https://ru.code-basics.com/languages/css" target="_blank">CSS</a></li>
+                    </ul>
+                </section>
+                <section class="skills" id="skills">
+                    <ol class="hard-skills"> <h2>Skills:</h2>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git</li>
+                        <li>Javascript</li>
+                        <li>Python</li> 
+                        <li>Photoshop</li>
+                    </ol>
+                </section>
+                <section class="strenghts" id="strenghts">
+                    <h2>Strenghts:</h2>
+                    <p>I am hardworking, disciplined, with a developed creative mindset</p>
+                </section>
+                <section class="code" id="code">
+                    <h2>Code:</h2>
+                        <p>Example:</p>
+                            <code>
+                                function multiply &lpar;a&comma; b&rpar; &lcub;return a &ast; b&rcub;
+                            </code>
+                </section>
+                <section class="projects" id="projects">
+                    <ol> <h2>Projects</h2>
+                        <li> <a href="" target="_blank">My CV page</a> </li>
+                    </ol>
+                </section>
+                <section class="english-level" id="english-level">
+                    <h2>English-level: A2</h2>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <a class="my-git-hub" href="https://github.com/Ivan-Mikalaevich" target="_blank"> My GitHub </a>
+            <p class="year">2022-2023</p>
+            <a href="https://rs.school" target="_blank"><img src="../rsschool-cv/assets/img/link.jpg" width="120" height="50" alt="logotip"></a>
+        </div>
+    </footer>
 </body>
 </html>
